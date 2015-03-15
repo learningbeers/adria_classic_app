@@ -1,0 +1,1 @@
+json.extract! @member, :id, :name, :surname, :dob, :email, :phone, :street, :housenumber, :city, :zip, :country, :membership_type, :membership_function, :membershipin_date, :membershipout, :membership_status, :created_at, :updated_at

@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @member.name %>
+</p>
+
+<p>
+  <strong>Surname:</strong>
+  <%= @member.surname %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @member.dob %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @member.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @member.phone %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @member.street %>
+</p>
+
+<p>
+  <strong>Housenumber:</strong>
+  <%= @member.housenumber %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @member.city %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @member.zip %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @member.country %>
+</p>
+
+<p>
+  <strong>Membership type:</strong>
+  <%= @member.membership_type %>
+</p>
+
+<p>
+  <strong>Membership function:</strong>
+  <%= @member.membership_function %>
+</p>
+
+<p>
+  <strong>Membershipin date:</strong>
+  <%= @member.membershipin_date %>
+</p>
+
+<p>
+  <strong>Membershipout:</strong>
+  <%= @member.membershipout %>
+</p>
+
+<p>
+  <strong>Membership status:</strong>
+  <%= @member.membership_status %>
+</p>
+
+<%= link_to 'Edit', edit_member_path(@member) %> |
+<%= link_to 'Back', members_path %>
